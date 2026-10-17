@@ -2,17 +2,19 @@
 
 ## Objective
 
-Implement a complete, playable, end-to-end prototype of the latest canonical design in:
+This original delivery prompt targets the preserved Underwall v1 design baseline (Revision 13). Its current source is:
 
-`C:\Users\natha\Dev\GITHUB_DESKTOP\AkiyaBlocks-Stories\HEROS_GAME.MD`
+`<development-root>\AkiyaBlocks-New-Stories\world\quests\_archive\underwall-v1\heros-game.md`
+
+[Open the preserved design baseline](https://github.com/Nate-BadScienceFiction/AkiyaBlocks-New-Stories/blob/main/world/quests/_archive/underwall-v1/heros-game.md). Here `<development-root>` is the directory containing the sibling repository checkouts. The as-built authority is [MiddleKingdom's implementation report](https://github.com/Nate-BadScienceFiction/AkiyaBlocks-MiddleKingdom/blob/main/IMPLEMENTATION_REPORT.MD).
 
 The playable scene belongs in:
 
-`C:\Users\natha\Dev\GITHUB_DESKTOP\AkiyaBlocks-MiddleKingdom`
+`<development-root>\AkiyaBlocks-MiddleKingdom`
 
 The reusable game engine is:
 
-`C:\Users\natha\Dev\GITHUB_DESKTOP\AkiyaBlocks`
+`<development-root>\AkiyaBlocks`
 
 Use the existing Middle Place scene as the foundation. Follow the current engine's architecture, scene-authoring model, input grammar, save/persistence conventions, build pipeline, visual language, and performance contracts. Reuse existing mechanics and extension patterns wherever possible.
 
@@ -519,7 +521,7 @@ If infrastructure interrupts the session, resume the same named session and cont
 
 Create this file when implementation begins and update it throughout the campaign:
 
-`C:\Users\natha\Dev\GITHUB_DESKTOP\AkiyaBlocks-MiddleKingdom\IMPLEMENTATION_REPORT.MD`
+`<development-root>\AkiyaBlocks-MiddleKingdom\IMPLEMENTATION_REPORT.MD`
 
 Keep it evidence-based and include:
 
